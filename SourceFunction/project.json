@@ -1,9 +1,0 @@
-﻿{
-  "frameworks": {
-    "net46": {
-      "dependencies": {
-        "ClosedXML": "0.86.0"
-      }
-    }
-  }
-}
