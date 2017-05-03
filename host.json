@@ -1,0 +1,8 @@
+﻿{
+  "id": "868fb31b797e4a43a90ef6df4c221b77",
+  "watchDirectories": [ "Entities", "bin" ],
+  "tracing": {
+    "consoleLevel": "verbose",
+    "fileLoggingMode": "always"
+  }
+}
