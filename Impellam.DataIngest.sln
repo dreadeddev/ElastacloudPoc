@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Impellam.DataIngest.Functions", "SourceFunction\Impellam.DataIngest.Functions.csproj", "{F425A2ED-D766-4E37-AD74-3EE4D086B989}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Impellam.DataIngest.Functions", "Impellam.DataIngest.Functions.csproj", "{F425A2ED-D766-4E37-AD74-3EE4D086B989}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Impellam.DataIngest.Models", "Impellam.DataIngest.Models\Impellam.DataIngest.Models.csproj", "{0F442A38-B4EC-4D59-A079-A4A746ED53F4}"
 EndProject
