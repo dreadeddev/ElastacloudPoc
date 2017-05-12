@@ -1,0 +1,26 @@
+﻿{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "name": "outputSbQueue",
+      "topicName": "jobscience",
+      "connection": "AzureServiceBusConnection",
+      "accessRights": "manage",
+      "type": "serviceBus",
+      "direction": "out"
+    } 
+  ],
+  "scriptFile": "..\\bin\\Impellam.DataIngest.Functions.dll",
+  "entryPoint": "Impellam.DataIngest.Functions.SourceFunction.IngestSource.Run"
+}

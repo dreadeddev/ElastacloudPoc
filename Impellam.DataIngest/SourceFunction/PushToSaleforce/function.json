@@ -1,0 +1,16 @@
+﻿{
+  "disabled": false,
+    "bindings": [
+      {
+        "name": "inputstream",
+        "topicName": "saleforceingest",
+        "subscriptionName": "ImportSubscription",
+        "connection": "AzureServiceBusConnection",
+        "accessRights": "manage",
+        "type": "serviceBusTrigger",
+        "direction": "in"
+      }
+    ],
+  "scriptFile": "..\\bin\\Impellam.DataIngest.Functions.dll",
+  "entryPoint": "Impellam.DataIngest.Functions.PushToSaleforce.PostToApi.Run"
+}

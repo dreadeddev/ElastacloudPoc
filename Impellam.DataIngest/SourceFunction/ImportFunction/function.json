@@ -1,0 +1,26 @@
+﻿{
+  "disabled": false,
+  "bindings": [
+    {
+      "type": "blobTrigger",
+      "direction": "in",
+      "name": "blob",
+      "path": "impellamimport/{blobName}"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "name": "outputSbQueue",
+      "topicName": "saleforceingest",
+      "connection": "AzureServiceBusConnection",
+      "accessRights": "manage",
+      "type": "serviceBus",
+      "direction": "out"
+    }
+  ],
+  "scriptFile": "..\\bin\\Impellam.DataIngest.Functions.dll",
+  "entryPoint": "Impellam.DataIngest.Functions.ImportFunction.IngestToSalesforce.Run"
+}

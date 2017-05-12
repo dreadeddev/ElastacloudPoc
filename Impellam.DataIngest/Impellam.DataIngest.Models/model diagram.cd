@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Impellam.DataIngest.Models.SourceData">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABEBAAAAAAQAAAEAAAAAAAAAAEAAAAAAAACAQGABAI=</HashCode>
+      <FileName>SourceData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impellam.DataIngest.Models.ExportFormat">
+    <Position X="3" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>YgAEse8gKBDwEAIeQMBwCAwCIBA4Hoh+BgOBAACkw4I=</HashCode>
+      <FileName>ExportFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impellam.DataIngest.Models.CsvOrderAttribute">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CsvOrderAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

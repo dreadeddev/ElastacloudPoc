@@ -1,0 +1,16 @@
+﻿{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "jsData",
+      "topicName": "jobscience",
+      "subscriptionName": "ExportSubscription",
+      "connection": "AzureServiceBusConnection",
+      "accessRights": "manage",
+      "type": "serviceBusTrigger",
+      "direction": "in"
+    }
+  ],
+  "scriptFile": "..\\bin\\Impellam.DataIngest.Functions.dll",
+  "entryPoint": "Impellam.DataIngest.Functions.ExportFunction.StoreData.Run"
+}
